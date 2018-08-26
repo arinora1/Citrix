@@ -1,7 +1,9 @@
 ## Modify Citrix vDisk Script ##
 ## Enter your site name, store name and Collection Group names
 ## The script has assumed your collection group names are Production and Development
+## These can be changed to suit your environment if required
 
+Import-Module “C:\Program Files\Citrix\Provisioning Services Console\Citrix.PVS.SnapIn.dll”
 
 Add-Type -AssemblyName System.Windows.Forms
 [System.Windows.Forms.Application]::EnableVisualStyles()
